@@ -15,6 +15,13 @@
 		F866F2BC25E6B5B3009FFFF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F866F2BA25E6B5B3009FFFF1 /* LaunchScreen.storyboard */; };
 		F866F2C725E6B5B4009FFFF1 /* MantraLabsAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F866F2C625E6B5B4009FFFF1 /* MantraLabsAssignmentTests.swift */; };
 		F866F2D225E6B5B4009FFFF1 /* MantraLabsAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F866F2D125E6B5B4009FFFF1 /* MantraLabsAssignmentUITests.swift */; };
+		F866F2E325E6B77E009FFFF1 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = F866F2E225E6B77E009FFFF1 /* menu.json */; };
+		F866F2E825E6B7FA009FFFF1 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F866F2E725E6B7FA009FFFF1 /* MenuModel.swift */; };
+		F866F2EF25E6C55C009FFFF1 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F866F2ED25E6C55C009FFFF1 /* MenuTableViewCell.swift */; };
+		F866F2F025E6C55C009FFFF1 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F866F2EE25E6C55C009FFFF1 /* MenuTableViewCell.xib */; };
+		F866F2F625E6CDB2009FFFF1 /* SubcateoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F866F2F425E6CDB2009FFFF1 /* SubcateoryTableViewCell.xib */; };
+		F866F2F725E6CDB2009FFFF1 /* SubcateoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F866F2F525E6CDB2009FFFF1 /* SubcateoryTableViewCell.swift */; };
+		F866F2FC25E6D387009FFFF1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F866F2FB25E6D387009FFFF1 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		F866F2CD25E6B5B4009FFFF1 /* MantraLabsAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MantraLabsAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F866F2D125E6B5B4009FFFF1 /* MantraLabsAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MantraLabsAssignmentUITests.swift; sourceTree = "<group>"; };
 		F866F2D325E6B5B4009FFFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F866F2E225E6B77E009FFFF1 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		F866F2E725E6B7FA009FFFF1 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		F866F2ED25E6C55C009FFFF1 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		F866F2EE25E6C55C009FFFF1 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		F866F2F425E6CDB2009FFFF1 /* SubcateoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubcateoryTableViewCell.xib; sourceTree = "<group>"; };
+		F866F2F525E6CDB2009FFFF1 /* SubcateoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubcateoryTableViewCell.swift; sourceTree = "<group>"; };
+		F866F2FB25E6D387009FFFF1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +113,13 @@
 		F866F2AE25E6B5B1009FFFF1 /* MantraLabsAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				F866F2EC25E6C53A009FFFF1 /* TableViewCell */,
+				F866F2E225E6B77E009FFFF1 /* menu.json */,
 				F866F2AF25E6B5B1009FFFF1 /* AppDelegate.swift */,
 				F866F2B125E6B5B1009FFFF1 /* SceneDelegate.swift */,
+				F866F2FB25E6D387009FFFF1 /* Constants.swift */,
 				F866F2B325E6B5B1009FFFF1 /* ViewController.swift */,
+				F866F2E725E6B7FA009FFFF1 /* MenuModel.swift */,
 				F866F2B525E6B5B1009FFFF1 /* Main.storyboard */,
 				F866F2B825E6B5B3009FFFF1 /* Assets.xcassets */,
 				F866F2BA25E6B5B3009FFFF1 /* LaunchScreen.storyboard */,
@@ -126,6 +144,17 @@
 				F866F2D325E6B5B4009FFFF1 /* Info.plist */,
 			);
 			path = MantraLabsAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		F866F2EC25E6C53A009FFFF1 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F866F2F525E6CDB2009FFFF1 /* SubcateoryTableViewCell.swift */,
+				F866F2F425E6CDB2009FFFF1 /* SubcateoryTableViewCell.xib */,
+				F866F2ED25E6C55C009FFFF1 /* MenuTableViewCell.swift */,
+				F866F2EE25E6C55C009FFFF1 /* MenuTableViewCell.xib */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +262,9 @@
 			files = (
 				F866F2BC25E6B5B3009FFFF1 /* LaunchScreen.storyboard in Resources */,
 				F866F2B925E6B5B3009FFFF1 /* Assets.xcassets in Resources */,
+				F866F2F625E6CDB2009FFFF1 /* SubcateoryTableViewCell.xib in Resources */,
+				F866F2E325E6B77E009FFFF1 /* menu.json in Resources */,
+				F866F2F025E6C55C009FFFF1 /* MenuTableViewCell.xib in Resources */,
 				F866F2B725E6B5B1009FFFF1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F866F2E825E6B7FA009FFFF1 /* MenuModel.swift in Sources */,
 				F866F2B425E6B5B1009FFFF1 /* ViewController.swift in Sources */,
 				F866F2B025E6B5B1009FFFF1 /* AppDelegate.swift in Sources */,
 				F866F2B225E6B5B1009FFFF1 /* SceneDelegate.swift in Sources */,
+				F866F2FC25E6D387009FFFF1 /* Constants.swift in Sources */,
+				F866F2F725E6CDB2009FFFF1 /* SubcateoryTableViewCell.swift in Sources */,
+				F866F2EF25E6C55C009FFFF1 /* MenuTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
